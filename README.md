@@ -1,5 +1,5 @@
 # nodets
-Is nodejs typescript project starter tempelate
+Is a NodeJS project starter tempelate with simple TypeScript config 
 
 ### Available commands
 > ``` npm run start:dev``` for run application on development mode</br>
