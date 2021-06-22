@@ -7,7 +7,13 @@ Is a NodeJS project starter tempelate with simple TypeScript config
 > ``` npm start``` for build application and run application on production mode</br>
 
 ### Instalation
-> clone this repository and go into the directory</br>
+> clone this repository, rename folder name and go into the directory</br>
+> change package.json file</br>
+```javascript
+  "name": "project name", //project name
+  "version": "1.0.0", // version number
+  "description": "Is nodejs typescript project starter tempelate", // project description
+```
 > run ```npm install```</br>
 > start build something awesome application</br>
 > happy code!!</br>
