@@ -1,30 +1,19 @@
-{
-  "name": "nodets",
-  "version": "1.0.0",
-  "description": "Is nodejs typescript project starter tempelate",
-  "main": "index.js",
-  "scripts": {
-    "build": "rimraf ./build && tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon",
-    "start": "npm run build && node build/main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xmush/nodets.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xmush/nodets/issues"
-  },
-  "homepage": "https://github.com/xmush/nodets#readme",
-  "devDependencies": {
-    "@types/node": "^15.12.4",
-    "nodemon": "^2.0.7",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.3.4"
-  }
-}
+# nodets
+Is a NodeJS project starter tempelate with simple TypeScript config 
+
+### Available commands
+> ``` npm run start:dev``` for run application on development mode</br>
+> ``` npm run build``` for build typescript code to javasript code in buil folder</br>
+> ``` npm start``` for build application and run application on production mode</br>
+
+### Instalation
+> clone this repository, rename folder name and go into the directory</br>
+> change package.json file</br>
+```javascript
+  "name": "project name", //project name
+  "version": "1.0.0", // version number
+  "description": "Is nodejs typescript project starter tempelate", // project description
+```
+> run ```npm install```</br>
+> start build something awesome application</br>
+> happy code!!</br>
